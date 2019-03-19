@@ -12,7 +12,7 @@ mybatis:
     - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 
 spring:
-  profile:dev
+  profile: dev
   application:
     name: microservicedemo-dept # 应用名称
   datasource:
@@ -52,7 +52,7 @@ mybatis:
     - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 
 spring:
-  profile:test
+  profile: test
   application:
     name: microservicedemo-dept # 应用名称
   datasource:
