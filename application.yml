@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicedemo-config-zbin-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microservicedemo-config-zbin-test
