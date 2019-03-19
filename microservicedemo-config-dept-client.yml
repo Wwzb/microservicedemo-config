@@ -57,7 +57,7 @@ spring:
     name: microservicedemo-dept # 应用名称
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
-    url: jdbc:mysql://localhost:3306/cloudDB02              # 数据库名称
+    url: jdbc:mysql://localhost:3306/cloudDB03              # 数据库名称
     username: root
     password: WZB19960322
     dbcp2:
